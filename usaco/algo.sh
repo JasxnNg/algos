@@ -11,7 +11,7 @@ filename=$(basename -- "$1")
 filename="${filename%.*}"
 
 # Compile the C++ file
-g++ -o "$filename" "$1"
+/opt/homebrew/Cellar/gcc/14.1.0_1/bin/g++-14 -o "$filename" "$1" 
 
 # Check if the compilation was successful
 if [ $? -eq 0 ]; then
