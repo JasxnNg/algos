@@ -2,6 +2,7 @@
 #include <iostream>
 #include <algorithm>
 
+
 void solve(){
     int n;
     std::cin >> n;
