@@ -40,7 +40,9 @@ void solve(){
         while (i < n && arr[i] == -1) { 
             block1++, i++;
         }
-        while (i < n && arr[i] == -1){}
+        while (i < n && arr[i] == -1){
+            block2++
+        }
 
         
         int start = -2;
