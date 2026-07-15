@@ -11,7 +11,8 @@ int main(){
     cin.tie(nullptr);
     cout.tie(nullptr);
 
-    int t; 
+    int t;
+    cin >> t;
     while (t--){
         solve();
     }
